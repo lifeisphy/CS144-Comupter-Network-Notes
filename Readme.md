@@ -1,0 +1,2 @@
+# 斯坦福CS144-Computer Network
+本仓库为该课程的学习笔记。课程介绍请参考[这里](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/CS144/)，课程视频在[Youtube](https://www.youtube.com/watch?v=r2WZNaFyrbQ&list=PL6RdenZrxrw9inR-IJv-erlOKRHjymxMN)上可以找到

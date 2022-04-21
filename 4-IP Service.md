@@ -42,7 +42,7 @@ IP provides some header fields that we'll see in a minute, to help the router fr
 5. Allows for new options to be added to the header.
 
 ### IPv4 Datagram
-
+![pic](./4-IPv4.png)
 IPDA,IPSA,
 Protocol ID:What is inside the data field,allows the dest demultiplex arriving data, sending them to the correct to process the packet. e.g.6: A TCP segment, and so we can safely pass the datagram to TCP code 
 140+ types of Protocol ID

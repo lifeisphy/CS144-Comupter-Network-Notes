@@ -44,12 +44,12 @@ If a application dont need reliable data delivery, it can use much simpler UDP, 
 TCP and UDP are the most commonly used transport layer services.
 
 
-### Applocation layer
+### Application layer
 As we saw in the last video, applications typically want a bidirectional reliable byte stream between two endpoints. They can send whatever bytestream they want ,and applicaions have their own protocol to define the semantics of data flowing between the two endpoints.
 
 ### Putting it all together:
 应用层把数据交给传输层，传输层使用TCP/UDP协议进行可靠的/不可靠的数据传输。传输层将数据转交网络层，网络层使用IP协议把数据分成Packets进行传输。在数据链路层，Packets are transmitted hop by hop until it reaches the destination。目标计算机网络层把接收到的数据包组装成完整数据交给传输层，传输层交给应用层。
-
+![pic](./3-four%20layer.png)
 ### IP is the "thin waist"
 IP protocol runs over many many diffrent linked layers such as ehternet,WiFi,DSL,3G,...
 
